@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etEditMedicineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/medicine_name"
+            android:inputType="text"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etEditDosage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dosage"
+            android:inputType="text"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etEditFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/frequency"
+            android:inputType="number"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etEditStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/start_date"
+            android:inputType="date"
+            android:importantForAutofill="no"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etEditTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/time"
+            android:inputType="time"
+            android:importantForAutofill="no"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etEditNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/notes"
+            android:inputType="textMultiLine"
+            android:importantForAutofill="no"
+            android:lines="3"
+            android:layout_marginBottom="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="?android:attr/buttonBarStyle"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnUpdateMedicine"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:text="@string/update"/>
+
+            <Button
+                android:id="@+id/btnDeleteMedicine"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="@color/colorError"
+                android:text="@string/delete"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Medicine Adherence Twin</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="add_medicine">Add Medicine</string>
+    <string name="view_medicines">View Medicines</string>
+    <string name="track_doses">Track Doses</string>
+    <string name="adherence_report">Adherence Report</string>
+    <string name="logout">Logout</string>
+
+    <string name="medicine_name">Medicine Name</string>
+    <string name="dosage">Dosage (e.g. 500mg)</string>
+    <string name="frequency">Frequency (times per day)</string>
+    <string name="start_date">Start Date</string>
+    <string name="time">Time</string>
+    <string name="notes">Notes</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="no_medicines">No medicines found.</string>
+
+    <string name="mark_taken">Taken</string>
+    <string name="mark_missed">Missed</string>
+    <string name="total_doses">Total Scheduled Doses: %1$d</string>
+    <string name="taken_doses">Taken Doses: %1$d</string>
+    <string name="missed_doses">Missed Doses: %1$d</string>
+    <string name="adherence_percentage">Adherence Percentage</string>
+    <string name="adherence_percentage_format">%1$d%%</string>
+
+    <string name="error_empty_fields">Please fill in all required fields</string>
+    <string name="success_save">Saved successfully</string>
+
+    <string name="welcome_user">Welcome, %1$s!</string>
+    <string name="summary_text" tools:ignore="PluralsCandidate">You have %1$d medicines tracked.\nToday\'s Adherence: %2$d%%</string>
+    <string name="dosage_format">Dosage: %1$s</string>
+    <string name="frequency_format" tools:ignore="PluralsCandidate">Frequency: %1$d times/day</string>
+    <string name="scheduled_format">Scheduled: %1$s</string>
+    <string name="no_account">Don\'t have an account? Register here</string>
+    <string name="already_have_account">Already have an account? Login here</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>
